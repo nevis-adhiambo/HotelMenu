@@ -1,0 +1,170 @@
+/*home*/
+.home{
+
+}
+#orange {
+	color: #FF7F50;
+}
+/*social site*/
+.social-site img{
+	opacity: 0.7;
+	width: 100%;
+	height: 200px;
+	display: block;
+}
+.text-center-text{
+	position: absolute;
+	color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;
+}
+/*about*/
+.disabled{
+	background: #FF7F50;
+	color: #FF7F50;
+	margin-top: 10rem;
+	margin-left: -2rem;
+	line-height: 3rem;
+}
+@media(max-width: 768px){
+	.disabled{
+		display: none;
+	}
+}
+.about h4 , a, i{
+	color: #FF7F50;
+}
+.text-wrapper{
+	border: 0.1rem solid #f0f0f0;
+	background: #fff;
+}
+@media(min-width: 568px){
+	.text-wrapper{
+		margin-left: -5rem;
+		margin-top: 3rem;		
+	}
+}
+div.line{
+	color: #FF7F50;
+	font-size: 3rem;;
+}
+.normal{
+	height: 42vh;
+	margin-top: 2rem;
+}
+.weird{
+	height: 50vh;
+}
+@media(max-width: 568px){
+	.normal, .weird {
+		height: auto;
+	}
+	.normal{
+		margin-top: auto;
+	}
+}
+.desc-wrapper{
+	background: #ffddcc;
+	border-radius: 0.3rem;
+	line-height: 2rem;
+}
+.desc-wrapper h3{
+	letter-spacing: 0.1rem;
+}
+.desc-wrapper p{
+	color: #989898;
+}
+.desc-wrapper .icon{
+	font-size: 2rem;
+	border-radius: 50%;
+	background: #fff;
+	width: 30%;
+}/*contact*/
+.contact{
+
+}
+.contact-section{
+	width: 80%;
+	border-bottom: 1.5px solid #ccc;
+
+}
+.call i{
+	font-size: 2rem;
+	color: #FF7F50;
+}
+/*menu section*/
+.meals .ratings i{
+	color: #ffff1a;
+}
+.meals .meal-prize i{
+	color: #FF7F50;
+	font-size: 1.5rem;
+}
+
+.meal-item{
+	border-radius: 4%;
+	border-bottom: 2px solid #ccc;
+}
+@media(min-width: 768px){
+	.meals{
+		display: grid;
+		grid-template-columns: 2.5fr 2.5fr 2.5fr;
+		grid-row-gap: 2rem;
+		grid-column-gap: 1rem;
+	}
+}
+.meal-prize{
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+}
+.menu-category {
+	border-bottom: 1px solid #ccc;
+}
+.menu-category li{
+	display: inline;
+	margin-right: 0.1rem;
+}
+.menu-category li a{
+	color: #000;
+}
+.menu-category li a:hover{
+	color: #FF7F50;
+}
+/*cutomer feedback*/
+.section-title h3{
+	color: #FF7F50;
+	font-size: 1.5rem;
+	letter-spacing: 0.1rem;
+}
+.customer-section p{
+	margin-bottom: 0.1rem;
+}
+ p.light{
+	color: #ccc;
+}
+.customer-section{
+	width: 90%;
+}
+img.person{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+/*footer*/
+.footer{
+	background: #FF7F50;
+	color: #fff;
+}
+.footer h4{
+	font-size: 1rem;
+}
+.footer a{
+	color: #fff;
+}
+.footer a:hover{
+	list-style: none;
+	color: #FF4500;
+}
